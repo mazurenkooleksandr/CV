@@ -78,6 +78,8 @@ li:last-child{
 }
 
 .main-block {
+    width: 650px;
+    height: 1754px;
     padding-left: 100px;
     padding-top: 30px;
     font-family: 'Roboto', sans-serif;
