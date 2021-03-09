@@ -4,13 +4,13 @@
 }
 .cv{
     width: 1050px;
-    height: 1754px;
+    height: 1454px;
     display: flex;
 }
 
 .aside {
     width: 400px;
-    height: 1754px;
+    height: 1454px;
     background-color: rgb(12, 128, 118);
 }
 
