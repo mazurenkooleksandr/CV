@@ -1,141 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.cv{
-    width: 1050px;
-    height: 1380px;
-    display: flex;
+.cv {
+  width: 1050px;
+  height: 1380px;
+  display: flex;
 }
 
 .aside {
-    width: 400px;
-    height: 1554px;
-    background-color: rgb(12, 128, 118);
+  width: 400px;
+  height: 1554px;
+  background-color: rgb(231, 159, 76);
 }
 
-.contacts h3{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-
+.contacts h3 {
+  padding-top: 15px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
-.contacts ul{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none;
-
+.contacts ul {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
 }
 
 a {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .fas,
 .fab {
-    font-size: 20px;
-    padding-bottom: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
-li:last-child{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+li:last-child {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
-.language h3{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-
+.language h3 {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
-.language p{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-left: 20px;
+.language p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-top: 3px;
+  padding-left: 20px;
 }
 
-.skills h3{
-    padding-top: 40px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
+.skills h3 {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
-.skills li{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none;
-    color: #fff;
+.skills li {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  color: #fff;
 }
 
 .main-block {
-    width: 500px;
-    height: 1454px;
-    padding-left: 100px;
-    padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
+  width: 750px;
+  height: 1454px;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: "Georama", sans-serif;
 }
 
 .name {
-    font-size: 35px;; 
+  font-size: 25px;
 }
 
-
-
-.name p{
-    padding-top: 10px;
-    font-size: 25px;
-    color: gray; 
+.name p {
+  padding-top: 10px;
+  font-size: 25px;
+  color: gray;
 }
 
 .date {
-    padding-top: 50px;
-    font-size: 25px;
+  padding-top: 50px;
+  font-size: 25px;
 }
 
-.date p{
-    padding-top: 10px;
-    font-size: 20px;
-    color: gray;
+.date p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: gray;
 }
 
 .experience,
 .education,
 .courses {
-    padding-top: 50px;
-    font-size: 25px;
+  padding-top: 50px;
+  font-size: 25px;
 }
 
-.experience p{
-    padding-top: 10px;
-    font-size: 25px;
+.experience p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
 }
 
-.education p{
-    padding-top: 10px;
-    font-size: 25px;
+.education p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
 }
 
-.courses p{
-    padding-top: 10px;
-    font-size: 25px;
+.courses p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
 }
 
 span {
-    padding-top: 10px;
-    font-size: 20px;
-    color: gray;
+  font-style: italic;
+  font-size: 20px;
+  color: gray;
+  padding-left: 30px;
 }
 
-
-
-
+i {
+  padding-right: 10px;
+  line-height: 5px;
+}
