@@ -3,19 +3,25 @@
   padding: 0;
 }
 .cv {
-  width: 1050px;
-  height: 1380px;
+  width: 1100px;
+  height: 100%;
   display: flex;
+  background-color: rgb(252, 250, 248);
 }
 
 .aside {
   width: 400px;
   height: 1554px;
-  background-color: rgb(231, 159, 76);
+  background-color: rgb(99, 108, 189);
+}
+
+.birth {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .contacts h3 {
-  padding-top: 15px;
   padding-left: 20px;
   font-family: "Roboto", sans-serif;
 }
@@ -36,7 +42,7 @@ a {
 
 .fas,
 .fab {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 20px;
 }
 
@@ -60,6 +66,13 @@ li:last-child {
   padding-left: 20px;
 }
 
+.birth p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-top: 3px;
+}
+
 .skills h3 {
   padding-top: 3px;
   padding-left: 20px;
@@ -78,7 +91,7 @@ li:last-child {
 .main-block {
   width: 750px;
   height: 1454px;
-  padding-left: 50px;
+  padding-left: 29px;
   padding-top: 30px;
   font-family: "Georama", sans-serif;
 }
@@ -86,11 +99,33 @@ li:last-child {
 .name {
   font-size: 25px;
 }
+#typescript-img {
+  position: relative;
+  right: 3px;
+  bottom: 10px;
+}
+
+.sp-ts {
+  position: relative;
+  bottom: 15px;
+  right: 23px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  font-style: normal;
+  color: #fff;
+}
 
 .name p {
   padding-top: 10px;
-  font-size: 25px;
+  padding-bottom: 30px;
+  font-size: 21px;
   color: gray;
+}
+
+.link {
+  text-decoration: underline;
+  color: #000;
 }
 
 .date {
@@ -104,36 +139,42 @@ li:last-child {
   color: gray;
 }
 
+.border {
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 9px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
 .experience,
 .education,
 .courses {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 25px;
 }
 
 .experience p {
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 21px;
 }
 
 .education p {
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 21px;
 }
 
 .courses p {
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 21px;
 }
 
 span {
   font-style: italic;
-  font-size: 20px;
+  font-size: 15px;
   color: gray;
   padding-left: 30px;
+  position: relative;
+  bottom: 20px;
 }
 
 i {
