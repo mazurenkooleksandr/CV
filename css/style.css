@@ -7,12 +7,19 @@
   height: 100%;
   display: flex;
   background-color: rgb(252, 250, 248);
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .aside {
   width: 400px;
   height: 1554px;
   background-color: rgb(99, 108, 189);
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px;
 }
 
 .birth {
