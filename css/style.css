@@ -8,7 +8,7 @@
   display: flex;
   background-color: rgb(252, 250, 248);
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .aside {
@@ -104,17 +104,18 @@ li:last-child {
 }
 
 .name {
+  text-align: center;
   font-size: 25px;
 }
 #typescript-img {
   position: relative;
   right: 3px;
-  bottom: 10px;
+  bottom: 7px;
 }
 
 .sp-ts {
   position: relative;
-  bottom: 15px;
+  bottom: 10px;
   right: 23px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
@@ -131,6 +132,8 @@ li:last-child {
 }
 
 .link {
+  font-family: "Georama", sans-serif;
+  font-size: 18px;
   text-decoration: underline;
   color: #000;
 }
@@ -153,7 +156,7 @@ li:last-child {
   background-color: white;
   margin-top: 9px;
   margin-bottom: 5px;
-  padding-left: 30px;
+  padding-left: 35px;
 }
 
 .experience,
@@ -164,15 +167,15 @@ li:last-child {
 }
 
 .experience p {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .education p {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .courses p {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 span {
