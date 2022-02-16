@@ -191,3 +191,12 @@ i {
   padding-right: 10px;
   line-height: 5px;
 }
+
+li > .relocate {
+  padding-top: 3px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-style: normal;
+}
