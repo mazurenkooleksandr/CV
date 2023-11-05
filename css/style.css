@@ -53,7 +53,7 @@ a {
   padding-bottom: 20px;
 }
 
-li:last-child {
+.last-child {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -126,8 +126,8 @@ li:last-child {
 
 .name p {
   padding-top: 10px;
-  padding-bottom: 30px;
-  font-size: 21px;
+  padding-bottom: 15px;
+  font-size: 18px;
   color: gray;
 }
 
@@ -162,7 +162,7 @@ li:last-child {
 .experience,
 .education,
 .courses {
-  padding-top: 20px;
+  padding-top: 15px;
   font-size: 25px;
 }
 
@@ -199,4 +199,18 @@ li > .relocate {
   font-family: "Roboto", sans-serif;
   color: #fff;
   font-style: normal;
+}
+
+.summary {
+  font-size: 13px !important;
+  color: black !important;
+  position: relative;
+  padding-right: 35px;
+  text-align: left;
+}
+
+.responsibilities {
+  font-size: 13px;
+  padding-left: 35px;
+  padding-bottom: 20px;
 }
