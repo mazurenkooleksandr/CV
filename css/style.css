@@ -100,7 +100,8 @@ a {
   height: 1454px;
   padding-left: 29px;
   padding-top: 30px;
-  font-family: "Georama", sans-serif;
+  /* font-family: "Georama", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 .name {
@@ -132,7 +133,8 @@ a {
 }
 
 .link {
-  font-family: "Georama", sans-serif;
+  /* font-family: "Georama", sans-serif; */
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-decoration: underline;
   color: #000;
@@ -168,14 +170,17 @@ a {
 
 .experience p {
   font-size: 18px;
+  font-weight: bold;
 }
 
 .education p {
   font-size: 18px;
+  font-weight: bold;
 }
 
 .courses p {
   font-size: 18px;
+  font-weight: bold;
 }
 
 span {
@@ -202,7 +207,7 @@ li > .relocate {
 }
 
 .summary {
-  font-size: 13px !important;
+  font-size: 16px !important;
   color: black !important;
   position: relative;
   padding-right: 35px;
@@ -210,7 +215,8 @@ li > .relocate {
 }
 
 .responsibilities {
-  font-size: 13px;
-  padding-left: 35px;
-  padding-bottom: 20px;
+  font-size: 14px;
+  /* padding-left: 35px;
+  padding-bottom: 20px; */
+  padding: 0 35px 20px;
 }
