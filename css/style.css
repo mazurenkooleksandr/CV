@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +16,7 @@
 .aside {
   width: 400px;
   height: 1554px;
-  background-color: rgb(99, 108, 189);
+  background-color: #636cbd;
   border-radius: 10px;
 }
 
@@ -25,25 +27,25 @@ img {
 .birth {
   padding-top: 10px;
   padding-left: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contacts h3 {
   padding-left: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contacts ul {
   padding-top: 3px;
   padding-left: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   list-style-type: none;
 }
 
 a {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -55,42 +57,42 @@ a {
 
 .last-child {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .language h3 {
   padding-top: 3px;
   padding-left: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .language p {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   padding-top: 3px;
   padding-left: 20px;
 }
 
 .birth p {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   padding-top: 3px;
 }
 
 .skills h3 {
   padding-top: 3px;
   padding-left: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .skills li {
   padding-top: 3px;
   padding-left: 20px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   list-style-type: none;
   color: #fff;
 }
@@ -99,9 +101,9 @@ a {
   width: 750px;
   height: 1454px;
   padding-left: 29px;
-  padding-top: 30px;
+  padding-top: 10px;
   /* font-family: "Georama", sans-serif; */
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .name {
@@ -118,8 +120,8 @@ a {
   position: relative;
   bottom: 10px;
   right: 23px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   list-style-type: none;
   font-style: normal;
   color: #fff;
@@ -134,8 +136,8 @@ a {
 
 .link {
   /* font-family: "Georama", sans-serif; */
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   text-decoration: underline;
   color: #000;
 }
@@ -165,26 +167,25 @@ a {
 .education,
 .courses {
   padding-top: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .experience p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .education p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .courses p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 span {
-  font-style: italic;
   font-size: 15px;
   color: gray;
   padding-left: 30px;
@@ -200,14 +201,14 @@ i {
 li > .relocate {
   padding-top: 3px;
   padding-left: 20px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   font-style: normal;
 }
 
 .summary {
-  font-size: 16px !important;
+  font-size: 14px !important;
   color: black !important;
   position: relative;
   padding-right: 35px;
@@ -215,8 +216,10 @@ li > .relocate {
 }
 
 .responsibilities {
-  font-size: 14px;
-  /* padding-left: 35px;
-  padding-bottom: 20px; */
+  font-size: 13px;
   padding: 0 35px 20px;
+}
+
+h3 {
+  padding-bottom: 10px;
 }
